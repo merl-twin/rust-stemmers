@@ -61,53 +61,53 @@ static a_3: &'static [Among; 2] = &[
     Among("\u{0441}\u{044F}", -1, 1, None)
 ];
 
-static a_4: &'static [Among; 46] = &[
+static a_4: &'static [Among; 42] = &[
     Among("\u{043B}\u{0430}", -1, 1, None),
     Among("\u{0438}\u{043B}\u{0430}", 0, 2, None),
     Among("\u{044B}\u{043B}\u{0430}", 0, 2, None),
     Among("\u{043D}\u{0430}", -1, 1, None),
-    Among("\u{0435}\u{043D}\u{0430}", 3, 2, None),
+    //Among("\u{0435}\u{043D}\u{0430}", 3, 2, None),           // 4 - ена
     Among("\u{0435}\u{0442}\u{0435}", -1, 1, None),
     Among("\u{0438}\u{0442}\u{0435}", -1, 2, None),
     Among("\u{0439}\u{0442}\u{0435}", -1, 1, None),
-    Among("\u{0435}\u{0439}\u{0442}\u{0435}", 7, 2, None),
-    Among("\u{0443}\u{0439}\u{0442}\u{0435}", 7, 2, None),
+    Among("\u{0435}\u{0439}\u{0442}\u{0435}", 6, 2, None),
+    Among("\u{0443}\u{0439}\u{0442}\u{0435}", 6, 2, None),
     Among("\u{043B}\u{0438}", -1, 1, None),
-    Among("\u{0438}\u{043B}\u{0438}", 10, 2, None),
-    Among("\u{044B}\u{043B}\u{0438}", 10, 2, None),
+    Among("\u{0438}\u{043B}\u{0438}", 9, 2, None),
+    Among("\u{044B}\u{043B}\u{0438}", 9, 2, None),
     Among("\u{0439}", -1, 1, None),
-    Among("\u{0435}\u{0439}", 13, 2, None),
-    Among("\u{0443}\u{0439}", 13, 2, None),
+    Among("\u{0435}\u{0439}", 12, 2, None),
+    Among("\u{0443}\u{0439}", 12, 2, None),
     Among("\u{043B}", -1, 1, None),
-    Among("\u{0438}\u{043B}", 16, 2, None),
-    Among("\u{044B}\u{043B}", 16, 2, None),
+    Among("\u{0438}\u{043B}", 15, 2, None),
+    Among("\u{044B}\u{043B}", 15, 2, None),
     Among("\u{0435}\u{043C}", -1, 1, None),
     Among("\u{0438}\u{043C}", -1, 2, None),
     Among("\u{044B}\u{043C}", -1, 2, None),
     Among("\u{043D}", -1, 1, None),
-    Among("\u{0435}\u{043D}", 22, 2, None),
+    //Among("\u{0435}\u{043D}", 21, 2, None),                // 23 - ен
     Among("\u{043B}\u{043E}", -1, 1, None),
-    Among("\u{0438}\u{043B}\u{043E}", 24, 2, None),
-    Among("\u{044B}\u{043B}\u{043E}", 24, 2, None),
+    Among("\u{0438}\u{043B}\u{043E}", 22, 2, None),
+    Among("\u{044B}\u{043B}\u{043E}", 22, 2, None),
     Among("\u{043D}\u{043E}", -1, 1, None),
-    Among("\u{0435}\u{043D}\u{043E}", 27, 2, None),
-    Among("\u{043D}\u{043D}\u{043E}", 27, 1, None),
+    //Among("\u{0435}\u{043D}\u{043E}", 25, 2, None),        // 28 - ено
+    Among("\u{043D}\u{043D}\u{043E}", 24, 1, None),
     Among("\u{0435}\u{0442}", -1, 1, None),
-    Among("\u{0443}\u{0435}\u{0442}", 30, 2, None),
+    Among("\u{0443}\u{0435}\u{0442}", 27, 2, None),
     Among("\u{0438}\u{0442}", -1, 2, None),
     Among("\u{044B}\u{0442}", -1, 2, None),
     Among("\u{044E}\u{0442}", -1, 1, None),
-    Among("\u{0443}\u{044E}\u{0442}", 34, 2, None),
+    Among("\u{0443}\u{044E}\u{0442}", 31, 2, None),
     Among("\u{044F}\u{0442}", -1, 2, None),
     Among("\u{043D}\u{044B}", -1, 1, None),
-    Among("\u{0435}\u{043D}\u{044B}", 37, 2, None),
+    //Among("\u{0435}\u{043D}\u{044B}", 34, 2, None),        // 38 - ены
     Among("\u{0442}\u{044C}", -1, 1, None),
-    Among("\u{0438}\u{0442}\u{044C}", 39, 2, None),
-    Among("\u{044B}\u{0442}\u{044C}", 39, 2, None),
+    Among("\u{0438}\u{0442}\u{044C}", 35, 2, None),
+    Among("\u{044B}\u{0442}\u{044C}", 35, 2, None),
     Among("\u{0435}\u{0448}\u{044C}", -1, 1, None),
     Among("\u{0438}\u{0448}\u{044C}", -1, 2, None),
     Among("\u{044E}", -1, 2, None),
-    Among("\u{0443}\u{044E}", 44, 2, None)
+    Among("\u{0443}\u{044E}", 40, 2, None)
 ];
 
 static a_5: &'static [Among; 36] = &[
